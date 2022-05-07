@@ -1,0 +1,32 @@
+speed(5)
+
+def stack():
+    forward(50)
+    left(90)
+    forward(50)
+    left(90)
+    forward(50)
+    left(90)
+    forward(50)
+    left(90)
+    penup()
+    left(90)
+    forward(50)
+    right(90)
+    forward(25)
+    pendown()
+    circle(25)
+    
+def move():
+    penup()
+    forward(25)
+    left(90)
+    forward(50)
+    pendown()
+
+penup()
+setposition(0,-200)
+pendown()
+for i in range(4):
+    stack()
+    move()

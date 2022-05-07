@@ -1,0 +1,4 @@
+def replace_at_index(word, index, letter):
+    return word[0:index] + letter + word[index + 1:]
+    
+print(replace_at_index("Poop", 0, "B"))

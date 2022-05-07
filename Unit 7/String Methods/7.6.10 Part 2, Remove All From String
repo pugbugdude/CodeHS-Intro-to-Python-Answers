@@ -1,0 +1,8 @@
+def remove_all_from_string(word, subword):
+    while subword in word:
+        i = word.find(subword)
+        j = len(subword)
+        word = word[:i] + word[(i + j):]
+    return word
+    
+print(remove_all_from_string("bananas","na"))

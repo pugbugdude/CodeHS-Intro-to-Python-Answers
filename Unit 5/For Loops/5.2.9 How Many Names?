@@ -1,0 +1,8 @@
+namenum = int(input("How many names do you have? "))
+name = " "
+
+for i in range(namenum):
+    namenum = input("Enter all of your names: ")
+    name += str(namenum) + " "
+    
+print(name)

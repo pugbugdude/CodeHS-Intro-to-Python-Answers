@@ -1,0 +1,36 @@
+def red_cross():
+    pensize(5)
+    pendown()
+    color("red")
+    left(45)
+    for i in range(4):
+        forward(50)
+        backward(50)
+        left(90)
+    
+def yellow_line():
+    color("yellow")
+    pensize(5)
+    forward(50)
+    backward(100)
+
+def green_check():
+    penup()
+    backward(50)
+    right(90)
+    pendown()
+    pensize(5)
+    color("green")
+    left(45)
+    forward(50)
+    left(90)
+    forward(150)
+    penup()
+    
+rating = int(input("Rating? "))
+if (rating <= 4):
+    red_cross
+elif (rating >= 8):
+    green_check()
+else:
+    yellow_line()

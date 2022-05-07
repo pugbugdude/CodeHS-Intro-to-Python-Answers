@@ -1,0 +1,11 @@
+def update_counts(count_dictionary, word):
+    if ( word in count_dictionary ):
+        count_dictionary[word] = count_dictionary[word] + 1
+    else:
+        count_dictionary[word] = 1
+dict = {}
+text = input("Enter Text: ")
+myList = text.split()
+for item in myList:
+    update_counts(dict, item)
+print(dict)

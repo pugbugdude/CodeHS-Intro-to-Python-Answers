@@ -1,0 +1,7 @@
+score = 0
+
+for scores in range(1, 4):
+    average = int(input())
+    score += average
+
+print(score/3)

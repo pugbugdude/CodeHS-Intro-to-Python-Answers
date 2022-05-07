@@ -1,0 +1,14 @@
+my_tuple = (0, 1, 2, "hi", 4, 5)
+
+# Your code here...
+first_three = my_tuple[0:3]
+
+middle = (3, )
+
+last_two = my_tuple[4: ]
+
+my_tuple = first_three + middle + last_two
+
+my_tuple = my_tuple[0:3] + (3, ) + my_tuple[4: ]
+
+print(my_tuple)

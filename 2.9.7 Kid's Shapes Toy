@@ -1,0 +1,45 @@
+penup()
+speed(10)
+setposition(-125, 80)
+
+def diamond():
+    pendown()
+    color("red")
+    begin_fill()
+    circle(60, 360, 4)
+    end_fill()
+diamond()
+penup()
+forward(250)
+
+def fullcircle():
+    pendown()
+    color("blue")
+    begin_fill()
+    circle(60)
+    end_fill()
+fullcircle()
+penup()
+setposition(-125, -125)
+
+def semicircle():
+    pendown()
+    color("yellow")
+    begin_fill()
+    circle(60, 180)
+    left(90)
+    forward(100)
+    end_fill()
+semicircle()
+penup()
+left(90)
+forward(250)
+
+def pentagon():
+    pendown()
+    color("green")
+    begin_fill()
+    circle(60, 360, 5)
+    end_fill()
+pentagon()
+penup()

@@ -1,0 +1,9 @@
+# update this function to return the number of times `second` appears in `first`!
+def count_occurrences(e, d):
+    count = 0
+    for checker in e:
+         if (checker == d):
+              count = count + 1
+    return count
+    
+print(count_occurrences("haaaa","a"))

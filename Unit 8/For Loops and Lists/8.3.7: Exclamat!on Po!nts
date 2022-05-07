@@ -1,0 +1,9 @@
+def exclamation(text):
+    my_list = list(text)
+    output = ""
+    for item in my_list:
+        if item == "i":
+            output = output + "!"
+        else:
+            output = output + item
+    return output

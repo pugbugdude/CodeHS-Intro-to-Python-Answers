@@ -1,0 +1,10 @@
+def max_int_in_list(my_list):
+    highest = my_list[0]
+    for number in my_list:
+        if number > highest:
+            highest = number
+    return highest
+        
+my_list = [5, 2, -5, 10, 23, -21]
+biggest_int = max_int_in_list(my_list)
+print(biggest_int)

@@ -1,0 +1,38 @@
+"""
+This program was made using my big robux hacker skills.
+This program makes Tracy draw six cirles in a pyramid like form.
+"""
+
+speed(10)
+
+#Sets Tracy in first position
+penup()
+setposition(-100,-200)
+
+#Bottom three circles
+for i in range(3):
+    pendown()
+    circle(50)
+    penup()
+    forward(100)
+
+#Sets Tracy in second position
+penup()
+setposition(-50, -115)
+
+#Middle two circles
+for i in range(2):
+    pendown()
+    circle(50)
+    penup()
+    forward(100)
+
+#Sets Tracy in third position    
+penup()
+setposition(0, -30)
+
+#Top circle
+pendown()
+circle(50)
+penup()
+forward(100)

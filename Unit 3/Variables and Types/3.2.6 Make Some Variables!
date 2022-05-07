@@ -1,0 +1,4 @@
+name = "Alexander"
+print(name)
+number = 420
+print(number)

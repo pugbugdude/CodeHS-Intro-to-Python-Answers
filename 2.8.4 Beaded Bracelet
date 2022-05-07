@@ -1,0 +1,18 @@
+speed(0)
+
+def bracelet():
+    pendown()
+    for i in range(36):
+        circle(10)
+        left(10)
+        penup()
+        forward(20)
+        pendown()
+penup()
+setposition(-100,0)
+right(90)
+bracelet()
+
+left(90)
+penup()
+setposition(0,0)

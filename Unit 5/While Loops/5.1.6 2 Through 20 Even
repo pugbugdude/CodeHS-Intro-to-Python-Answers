@@ -1,0 +1,4 @@
+initial = 0
+while(initial != 20):
+    initial += 2
+    print(initial)

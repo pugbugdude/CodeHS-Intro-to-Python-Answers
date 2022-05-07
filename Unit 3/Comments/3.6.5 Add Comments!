@@ -1,0 +1,19 @@
+"""
+This script asks the user for their full name
+Then it prints out their full name
+"""
+
+# This command asks the user for their first name
+first_name = input("Enter your first name: ")
+
+# This command asks the user for their middle name
+middle_name = input("Enter your middle name: ")
+
+# This command asks the user for their last name
+last_name = input("Enter your last name: ")
+
+# This command combines all three functions to create a new function
+full_name = first_name + " " + middle_name + " " + last_name
+
+# This command prints out the full name
+print(full_name)

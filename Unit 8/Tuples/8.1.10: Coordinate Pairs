@@ -1,0 +1,15 @@
+import math
+
+# fill in this function to return the distance between the two points!
+def distance(first_point, second_point):
+    x2 = second_point[0]
+    x1 = first_point[0]
+    y2 = second_point[1]
+    y1 = first_point[1]
+    subx = x2 - x1
+    suby = y2 - y1
+    squarex = subx ** 2
+    squarey = suby ** 2
+    total = squarex + squarey
+    answer = math.sqrt(total)
+    return answer

@@ -1,0 +1,13 @@
+my_float = 3.3312
+
+# Your code here...
+
+while True:
+    guess = float(input("Please guess a number between 1 and 100: "))
+    if guess == my_float:
+        print("Correct!")
+        break
+    elif guess < my_float:
+        print("Too low!")
+    else:
+        print("Too high!")

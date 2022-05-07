@@ -1,0 +1,7 @@
+reservation_name = "Alex"
+name = input("What is your name? ")
+
+if (name == "Alex"):
+    print("Right this way!")
+else:
+    print("Sorry, we don't have a reservation under that name.")

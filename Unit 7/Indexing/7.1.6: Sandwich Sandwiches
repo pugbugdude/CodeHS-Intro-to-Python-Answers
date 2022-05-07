@@ -1,0 +1,6 @@
+# update the function's body to return the 
+# first and last letter of the input concatenated together
+def sandwich(word):
+    return word[0] + word[2]
+
+print (sandwich("ALE"))
